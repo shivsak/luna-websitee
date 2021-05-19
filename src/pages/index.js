@@ -56,12 +56,12 @@ export default (() => {
 				margin-top="auto"
 				color="--grey"
 				font="--base"
-				margin="30px -16px -16px -16px"
+				margin="60px -16px -16px -16px"
 				align-self="center"
 				justify-content="center"
 				flex-direction="column"
 			>
-				<Image width="1000px" src="https://uploads.quarkly.io/60a47ba413e4b0001f82a146/images/HeroWindow-3x.png?v=2021-05-19T02:47:22.342Z" align-self="flex-start" />
+				<Image width="800px" src="https://uploads.quarkly.io/60a47ba413e4b0001f82a146/images/HeroWindow-3x.png?v=2021-05-19T02:47:22.342Z" align-self="flex-start" />
 			</Stack>
 		</Section>
 		<Image

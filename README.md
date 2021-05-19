@@ -17,6 +17,11 @@
          alt="Create React App version" />
   </a>
   
+  <a href="https://github.com/shivsak/luna-websitee/pulls">
+    <img src="https://badgen.net/github/prs/shivsak/luna-websitee" alt="Pull Request Amount">
+  </a>
+  <img src="https://badgen.net/github/last-commit/shivsak/luna-websitee" alt="Last commit date" />
+            
   <a href="./LICENSE">
     <img src="https://badgen.net/badge/license/MIT/blue"
          alt="License">
