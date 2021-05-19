@@ -50,6 +50,7 @@ export default (() => {
 						Your financial
 					</Override>
 					<Override slot="Looped Text" color="#6cff6c" font="600 42px/50.4px --fontFamily-googleMontserrat" />
+					<Override slot="After Text" opacity="0" />
 				</Components.QuarklycommunityKitLoopText>
 			</Stack>
 			<Stack
