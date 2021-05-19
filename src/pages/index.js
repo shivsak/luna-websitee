@@ -33,19 +33,26 @@ export default (() => {
 				align-self="center"
 				justify-content="center"
 				flex-direction="column"
+				align-items="center"
 			>
 				<Image height="100px" src="https://uploads.quarkly.io/60a47ba413e4b0001f82a146/images/logo.png?v=2021-05-19T02:50:27.696Z" width="200px" />
 				<Text
 					as="h1"
-					margin="8px 0px 2px 0px"
-					font="normal 300 72px/1.2 --fontFamily-googleRaleway"
+					margin="40px 0px 20px 0px"
+					font="normal 800 72px/1.2 --fontFamily-googleRaleway"
 					md-font="--headline2"
 					color="--light"
 					max-width="850px"
 				>
 					Meet Luna.
 				</Text>
-				<Components.QuarklycommunityKitLoopText slides="portfolio tracker,news source,research hub,market analyst" color="#ffffff" font="900 42px/50.4px --fontFamily-serifGaramond" intervalProp="3000">
+				<Components.QuarklycommunityKitLoopText
+					slides="portfolio tracker,news source,research hub,market analyst"
+					color="#ffffff"
+					font="900 42px/50.4px --fontFamily-serifGaramond"
+					intervalProp="3000"
+					margin="20px 0px 0px 0px"
+				>
 					<Override slot="Before Text" font="normal 400 42px/1.2 --fontFamily-googleMontserrat">
 						Your financial
 					</Override>
@@ -57,7 +64,7 @@ export default (() => {
 				margin-top="auto"
 				color="--grey"
 				font="--base"
-				margin="60px -16px -16px -16px"
+				margin="90px -16px -16px -16px"
 				align-self="center"
 				justify-content="center"
 				flex-direction="column"
