@@ -52,6 +52,7 @@ export default (() => {
 					font="900 42px/50.4px --fontFamily-serifGaramond"
 					intervalProp="3000"
 					margin="20px 0px 0px 0px"
+					sm-text-align="center"
 				>
 					<Override slot="Before Text" font="normal 400 42px/1.2 --fontFamily-googleMontserrat">
 						Your financial
@@ -68,8 +69,9 @@ export default (() => {
 				align-self="center"
 				justify-content="center"
 				flex-direction="column"
+				sm-margin="90px 10px -16px 10px"
 			>
-				<Image width="800px" src="https://uploads.quarkly.io/60a47ba413e4b0001f82a146/images/HeroWindow-3x.png?v=2021-05-19T02:47:22.342Z" align-self="flex-start" />
+				<Image width="800px" src="https://uploads.quarkly.io/60a47ba413e4b0001f82a146/images/HeroWindow-3x.png?v=2021-05-19T02:47:22.342Z" align-self="flex-start" sm-width="100%" />
 			</Stack>
 		</Section>
 		<Image
@@ -119,6 +121,7 @@ export default (() => {
 									border-color="rgba(255, 255, 255, 0.25)"
 									border-radius="6px"
 									placeholder="Stonkjeet Singh"
+									sm-color="#ffffff"
 								/>
 							</StackItem>
 							<StackItem width="50%">
@@ -136,6 +139,7 @@ export default (() => {
 									border-width="2px"
 									border-radius="4px"
 									placeholder="stonkjeet@gmail.com"
+									sm-color="#ffffff"
 								/>
 							</StackItem>
 							<StackItem width="100%" hidden="true">
