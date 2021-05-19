@@ -49,8 +49,8 @@ export default {
 		"serifGeorgia": "Constantia, 'Lucida Bright', Lucidabright, 'Lucida Serif', Lucida, 'DejaVu Serif', 'Bitstream Vera Serif', 'Liberation Serif', Georgia, serif",
 		"serifGaramond": "'Palatino Linotype', Palatino, Palladio, 'URW Palladio L', 'Book Antiqua', Baskerville, 'Bookman Old Style', 'Bitstream Charter', 'Nimbus Roman No9 L', Garamond, 'Apple Garamond', 'ITC Garamond Narrow', 'New Century Schoolbook', 'Century Schoolbook', 'Century Schoolbook L', Georgia, serif",
 		"googleOpenSans": "\"Open Sans\", sans-serif",
-		"googleLato": "\"Lato\", sans-serif",
 		"googleMontserrat": "\"Montserrat\", sans-serif",
+		"googleLato": "\"Lato\", sans-serif",
 		"googleRoboto": "\"Roboto\", sans-serif",
 		"googleRaleway": "\"Raleway\", sans-serif"
 	},
@@ -156,7 +156,6 @@ export default {
 			}
 		}
 	},
-	"version": 1,
 	"fonts": {
 		"Open Sans": {
 			"family": "Open Sans",
@@ -174,25 +173,6 @@ export default {
 					"700italic",
 					"800",
 					"800italic"
-				]
-			}
-		},
-		"Lato": {
-			"family": "Lato",
-			"type": "google-fonts",
-			"meta": {
-				"category": "sans-serif",
-				"variants": [
-					"100",
-					"100italic",
-					"300",
-					"300italic",
-					"regular",
-					"italic",
-					"700",
-					"700italic",
-					"900",
-					"900italic"
 				]
 			}
 		},
@@ -218,6 +198,25 @@ export default {
 					"700italic",
 					"800",
 					"800italic",
+					"900",
+					"900italic"
+				]
+			}
+		},
+		"Lato": {
+			"family": "Lato",
+			"type": "google-fonts",
+			"meta": {
+				"category": "sans-serif",
+				"variants": [
+					"100",
+					"100italic",
+					"300",
+					"300italic",
+					"regular",
+					"italic",
+					"700",
+					"700italic",
 					"900",
 					"900italic"
 				]
@@ -271,5 +270,6 @@ export default {
 				]
 			}
 		}
-	}
+	},
+	"version": 8
 }

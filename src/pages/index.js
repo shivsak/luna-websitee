@@ -1,9 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Text, Input, Button } from "@quarkly/widgets";
+import { Theme, Link, Image, Text, Section, Input } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { Override, Stack, Section, StackItem, Formspree } from "@quarkly/components";
+import { Override, Stack, StackItem, Formspree } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
@@ -34,6 +34,7 @@ export default (() => {
 				justify-content="center"
 				flex-direction="column"
 				align-items="center"
+				align-content="center"
 			>
 				<Image height="100px" src="https://uploads.quarkly.io/60a47ba413e4b0001f82a146/images/logo.png?v=2021-05-19T02:50:27.696Z" width="200px" />
 				<Text
@@ -51,9 +52,14 @@ export default (() => {
 					color="#ffffff"
 					font="900 42px/50.4px --fontFamily-serifGaramond"
 					intervalProp="3000"
-					margin="20px 0px 0px 0px"
+					margin="20px auto 0px auto"
 					sm-text-align="center"
 					text-align="center"
+					align-self="center"
+					display="grid"
+					justify-content="center"
+					align-items="center"
+					align-content="center"
 				>
 					<Override slot="Before Text" font="normal 400 42px/1.2 --fontFamily-googleMontserrat">
 						Your financial
@@ -78,7 +84,7 @@ export default (() => {
 					align-self="flex-start"
 					sm-width="100%"
 					max-width="900px"
-					margin="30px 0px 0px 0px"
+					margin="20px 0px 0px 0px"
 				/>
 			</Stack>
 		</Section>
@@ -114,11 +120,11 @@ export default (() => {
 					</Text>
 				</StackItem>
 				<StackItem width="50%" lg-width="100%">
-					<Formspree endpoint="https://formspree.io/f/mbjqgqon" color="#ffffff">
+					<Formspree endpoint="https://formspree.io/f/mbjqgqon" color="#ffffff" completeText="You're on the waitlist!">
 						<Stack gap="16px">
 							<StackItem width="50%" border-color="rgba(255, 255, 255, 0.46)">
 								<Override slot="StackItemContent" flex-direction="column" />
-								<Text font="normal 600 16px/1.5 --fontFamily-sans" margin="0 0 4px 0" border-color="rgba(255, 255, 255, 0.46)" color="rgba(255, 255, 255, 0.67)">
+								<Text font="normal 600 16px/1.5 --fontFamily-sans" margin="0 0 8px 4px" border-color="rgba(255, 255, 255, 0.46)" color="rgba(255, 255, 255, 0.67)">
 									Name
 								</Text>
 								<Input
@@ -127,14 +133,14 @@ export default (() => {
 									name="name"
 									background="rgba(255, 255, 255, 0)"
 									border-color="rgba(255, 255, 255, 0.25)"
-									border-radius="6px"
+									border-radius="10px"
 									placeholder="Stonkjeet Singh"
 									sm-color="#ffffff"
 								/>
 							</StackItem>
 							<StackItem width="50%">
 								<Override slot="StackItemContent" flex-direction="column" />
-								<Text font="normal 600 16px/1.5 --fontFamily-sans" margin="0 0 4px 0" border-color="rgba(255, 255, 255, 0.46)" color="rgba(255, 255, 255, 0.67)">
+								<Text font="normal 600 16px/1.5 --fontFamily-sans" margin="0 0 8px 4px" border-color="rgba(255, 255, 255, 0.46)" color="rgba(255, 255, 255, 0.67)">
 									Email
 								</Text>
 								<Input
@@ -145,7 +151,7 @@ export default (() => {
 									border-color="rgba(255, 255, 255, 0.25)"
 									background="rgba(255, 255, 255, 0)"
 									border-width="2px"
-									border-radius="4px"
+									border-radius="10px"
 									placeholder="stonkjeet@gmail.com"
 									sm-color="#ffffff"
 								/>
@@ -160,9 +166,23 @@ export default (() => {
 							<StackItem width="100%" />
 						</Stack>
 					</Formspree>
-					<Button height="45px" margin="0px 0px 0px 30px" align-self="center" background="#31b94f">
+					<Input
+						type="submit"
+						height="40px"
+						margin="10px 0px 2px 30px"
+						align-self="center"
+						background="#11b557"
+						border-width={0}
+						color="#ffffff"
+						text-align="center"
+						border-radius="10px"
+						padding="6px 24px 6px 24px"
+						font="normal 600 12px/1.5 --fontFamily-googleMontserrat"
+						hover-background="#2c6565"
+						cursor="pointer"
+					>
 						Send
-					</Button>
+					</Input>
 				</StackItem>
 			</Stack>
 		</Section>
