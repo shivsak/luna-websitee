@@ -120,7 +120,7 @@ export default (() => {
 					</Text>
 				</StackItem>
 				<StackItem width="50%" lg-width="100%">
-					<Formspree endpoint="https://formspree.io/f/mbjqgqon" color="#ffffff" completeText="You're on the waitlist!">
+					<Formspree endpoint="https://formspree.io/f/mbjqgqon" color="#ffffff" completeText="Welcome to Luna!">
 						<Stack gap="16px">
 							<StackItem width="50%" border-color="rgba(255, 255, 255, 0.46)">
 								<Override slot="StackItemContent" flex-direction="column" />
