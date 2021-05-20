@@ -180,9 +180,7 @@ export default (() => {
 						font="normal 600 12px/1.5 --fontFamily-googleMontserrat"
 						hover-background="#2c6565"
 						cursor="pointer"
-					>
-						Send
-					</Input>
+					/>
 				</StackItem>
 			</Stack>
 		</Section>
